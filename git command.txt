@@ -12,3 +12,16 @@
 | git merge <branch>   | รวม branch ที่ระบุเข้ากับ branch ปัจจุบัน      |
 | git pull             | ดึงข้อมูลและรวมการเปลี่ยนแปลงจาก remote      |
 | git push             | ส่ง commit ไปยัง remote repository             |
+
+| git add .                | เพิ่มไฟล์ทั้งหมดในโฟลเดอร์เข้าสู่ staging area         |
+| git commit -a -m "msg"   | commit การเปลี่ยนแปลงทุกไฟล์ที่ถูก track พร้อมข้อความ  |
+| git remote -v            | แสดงรายชื่อ remote repository ที่เชื่อมต่ออยู่         |
+| git remote add <name> <url> | เพิ่ม remote repository ใหม่                        |
+| git branch -a            | แสดง branch ทั้งหมดรวมถึง remote                     |
+| git checkout -b <branch> | สร้าง branch ใหม่และสลับไป branch นั้น                |
+| git stash                | เก็บการเปลี่ยนแปลงชั่วคราว                          |
+| git stash pop            | นำการเปลี่ยนแปลงที่เก็บไว้กลับมาใช้                  |
+| git reset --hard         | ยกเลิกการเปลี่ยนแปลงทั้งหมดและกลับไป commit ล่าสุด   |
+| git log --oneline        | แสดงประวัติ commit แบบย่อ                             |
+| git diff --staged        | แสดงความแตกต่างของไฟล์ที่อยู่ใน staging area          |
+| git pull --rebase        | ดึงข้อมูลจาก remote และ rebase กับ branch ปัจจุบัน    |
