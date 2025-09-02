@@ -1,0 +1,14 @@
+| คำสั่ง Git           | คำอธิบาย                                      |
+|----------------------|-----------------------------------------------|
+| git init             | สร้าง repository Git ใหม่ในโฟลเดอร์ปัจจุบัน   |
+| git clone <url>      | คัดลอก repository จาก remote มายังเครื่องเรา   |
+| git status           | แสดงสถานะไฟล์ใน repository                    |
+| git add <ไฟล์>       | เพิ่มไฟล์เข้าสู่ staging area                  |
+| git commit -m "msg"  | บันทึกการเปลี่ยนแปลงพร้อมข้อความ             |
+| git log              | แสดงประวัติการ commit                         |
+| git diff             | แสดงความแตกต่างของไฟล์ก่อน commit             |
+| git branch           | แสดงรายชื่อ branch ทั้งหมด                    |
+| git checkout <branch>| สลับไปยัง branch ที่ต้องการ                    |
+| git merge <branch>   | รวม branch ที่ระบุเข้ากับ branch ปัจจุบัน      |
+| git pull             | ดึงข้อมูลและรวมการเปลี่ยนแปลงจาก remote      |
+| git push             | ส่ง commit ไปยัง remote repository             |
